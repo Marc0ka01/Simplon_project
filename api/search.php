@@ -1,7 +1,7 @@
 <?php
 
 // Accès cors-origin
-header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Origin: https://simplon-project-1bdc1.web.app/');
 
 // vérifie si la requête HTTP est de type GET
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
