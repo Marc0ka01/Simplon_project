@@ -1,10 +1,10 @@
 <?php
 
 // Ouvrir une connexion PDO à la base de données
-$dbHost = $_ENV["DB_HOST"];
-$dbName = $_ENV["DB_NAME"];
-$dbUser = $_ENV["DB_USER"];
-$dbPassword = $_ENV["DB_PASSWORD"];
+$dbHost = "sql305.epizy.com";
+$dbName = "epiz_34341394_simplon";
+$dbUser = "epiz_34341394";
+$dbPassword = "FAyuXmUcwH";
 $dsn = "mysql:host=$dbHost;dbname=$dbName;charset=utf8mb4";
 $options = [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
